@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: zh-CN
-  baseUrl: quartz.jzhao.xyz
+  baseUrl: https://tjcyyds.github.io/daily-notes/
   ignorePatterns:
     - private
     - templates
