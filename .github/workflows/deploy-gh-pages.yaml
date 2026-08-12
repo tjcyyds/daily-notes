@@ -35,10 +35,5 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - id: deployment
-      - uses: actions/upload-pages-deploy@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          artifact-name: github-pages
+      - uses: actions/deploy-pages@v4
